@@ -1,0 +1,25 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@metamask/providers": "^10.2.1",
+    "ethers": "^5.7.2",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "description": "This repository contains a Solidity smart contract named Assessment along with a simple React DApp that interacts with the deployed contract using the Hardhat network. The contract provides functionality to check if an array is valid or contains unique elements.",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "author": "",
+  "license": "ISC"
+}
